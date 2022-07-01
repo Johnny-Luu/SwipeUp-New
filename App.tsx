@@ -22,7 +22,7 @@ const App = () => {
 
     Dialogflow_V2.requestQuery(
       message,
-      result => {
+      (result: any) => {
         console.log(result);
         const text = result.queryResult.fulfillmentMessages[0].text.text[0];
         console.log(text);
