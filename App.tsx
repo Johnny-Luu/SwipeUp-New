@@ -18,7 +18,7 @@ const App = () => {
   };
 
   const chabotHandleSendMessage = () => {
-    const message = 'Hello';
+    const message = 'what is covid?';
 
     Dialogflow_V2.requestQuery(
       message,
